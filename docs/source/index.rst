@@ -11,13 +11,6 @@ To start the Qt console::
 
     $ jupyter qtconsole
 
-.. toctree::
-   :maxdepth: 2
-
-   installation
-   config_options
-   changelog
-
 Overview
 ========
 The Qt console is a very lightweight application that largely feels like a
@@ -145,6 +138,13 @@ The Qt console is configurable via the ConsoleWidget. To change these, set the
 use 9pt Anonymous Pro::
 
     $> jupyter qtconsole --ConsoleWidget.font_family="Anonymous Pro" --ConsoleWidget.font_size=9
+
+.. toctree::
+   :maxdepth: 2
+
+   installation
+   config_options
+   changelog
 
 Process Management
 ==================
